@@ -111,14 +111,14 @@ public class MainActivity extends AppCompatActivity {
                 fragment2 = new EventFragment();
                 titleTextView.setText("Event List");
                 break;
-            case 1:
-                fragment2 = new ExpenseFragment();
-                titleTextView.setText("Expense List");
-                break;
-            case 2:
-                fragment2 = new MomentFragment();
-                titleTextView.setText("Moment List");
-                break;
+//            case 1:
+//                fragment2 = new ExpenseFragment();
+//                titleTextView.setText("Expense List");
+//                break;
+//            case 2:
+//                fragment2 = new MomentFragment();
+//                titleTextView.setText("Moment List");
+//                break;
             case 3:
                 fragment2 = new PlacesFragment();
                 titleTextView.setText("Nearby Places");
