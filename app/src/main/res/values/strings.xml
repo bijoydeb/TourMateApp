@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TourMateApp</string>
+    <string name="app">TourMate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_logout">Logout</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="address">Address</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="places_api">AIzaSyDr4zLcVFvYWH-JdyxRsULOmP81Dpk_Wbo</string>
+    <string name="stay_login">Stay Logged in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+</resources>

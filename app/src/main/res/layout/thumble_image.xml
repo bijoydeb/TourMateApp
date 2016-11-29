@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.summons.tourmateapp.Utils.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bank"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name" />
+
+
+
+</com.summons.tourmateapp.Utils.SquareLayout>

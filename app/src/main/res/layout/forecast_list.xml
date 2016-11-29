@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6597c1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="right">
+
+        <com.summons.tourmateapp.TextView.CustomTextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            app:customFont="times.ttf"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp">
+
+            <ImageView
+                android:id="@+id/conditionImageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/clear"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="34dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="high" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="low" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="34dp">
+
+                <com.summons.tourmateapp.TextView.CustomTextView
+                    android:id="@+id/tempHighTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:customFont="times.ttf"
+                    android:textSize="25sp"
+                    android:layout_marginEnd="12dp"
+                    android:textColor="@android:color/white"
+                    android:text="high"
+                    android:layout_marginRight="12dp" />
+
+                <com.summons.tourmateapp.TextView.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:customFont="times.ttf"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/white"
+                    android:text="/" />
+
+                <com.summons.tourmateapp.TextView.CustomTextView
+                    android:id="@+id/tempLowTextView"
+                    android:layout_width="wrap_content"
+                    app:customFont="times.ttf"
+                    android:textSize="25sp"
+                    android:layout_marginStart="12dp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:text="low"
+                    android:layout_marginLeft="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="0.50">
+
+            <com.summons.tourmateapp.TextView.CustomTextView
+                android:id="@+id/textTextView"
+                android:layout_width="wrap_content"
+                app:customFont="times.ttf"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="Sky condition" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="0.50"
+            android:gravity="right">
+
+            <com.summons.tourmateapp.TextView.CustomTextView
+                android:id="@+id/dayTextView"
+                android:layout_width="wrap_content"
+                app:customFont="times.ttf"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="day" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
